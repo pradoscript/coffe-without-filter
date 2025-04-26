@@ -172,7 +172,7 @@
 }
 
 .hero h1 {
-    font-size: 1.6rem;
+    font-size: 2.5rem;
 }
    /* HERO */
 
@@ -183,11 +183,11 @@
     }
 
    .sectionContent h1 {
-    font-size: 1.6rem;
+    font-size: 2.5rem;
    }
 
    .sectionContent p {
-    font-size: 0.9rem;
+    font-size: 1.5rem;
    }
 
    .caffeAsset1 {
@@ -201,11 +201,11 @@
 }
 
    .secondSectionContent h1 {
-    font-size: 1.6rem;
+    font-size: 2.5rem;
    }
 
    .secondSectionContent p {
-    font-size: 0.9rem;
+    font-size: 1.5rem;
    }
 
    .caffeAsset2 {
@@ -219,11 +219,11 @@
    }
 
    .thirdSectionContent h1 {
-    font-size: 1.6rem;
+    font-size: 2.5rem;
    }
 
    .thirdSectionContent p {
-    font-size: 0.9rem;
+    font-size: 1.5rem;
    }
 
    .thirdSectionContent {
