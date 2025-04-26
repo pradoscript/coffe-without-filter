@@ -1,0 +1,279 @@
+.page {
+    background-image: url("../../images/background.png");
+    background-size: cover;       
+    background-position: center left;  
+    background-repeat: no-repeat;  
+    width: 100%;
+    min-height: 100vh;            
+    display: flex;          
+    flex-direction: row;
+    position: relative;
+  }
+
+.pageHero {
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.page1 {
+    /* background-image: url("../../images/background2.png");  */
+    justify-content: flex-start; 
+    background-position: center right;
+    align-items: center;
+  }
+
+  .page2 {
+    /* background-image: url("../../images/background3.png"); */
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .page3{
+    /* background-image: url("../../images/background.png");  */
+    justify-content: flex-start; 
+    background-position: center right;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .sectionContent {
+    width: 40rem;
+    padding-top: 3rem; 
+    margin-left: 10rem;
+  }
+
+  .secondSectionContent {
+    width: 40rem;
+    margin-right: 10rem
+  }
+
+  .secondSectionContent p{
+    font-size: 1.5rem;
+    color: #fff
+  }
+
+  .thirdSectionContent {
+    width: 40rem;
+    padding-top: 3rem; 
+    margin-left: 10rem;
+  }
+
+  .thirdSectionContent p {
+    font-size: 1.5rem;
+    color: #fff
+  }
+
+  .caffeAsset1 {
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    width: auto;
+    max-width: 40rem; 
+    height: auto;
+    padding-top:15rem;
+    padding-right: 5rem;
+  }
+
+  .caffeAsset2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 40rem;
+    height: auto;
+    padding-top: 15rem;
+    padding-right: 5rem;
+  }
+
+  .caffeAsset3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35rem;
+    height: auto;
+    padding-top: 12rem;
+    padding-right: 5rem;
+  }
+
+
+  .sectionContent p {
+    font-size: 1.5rem;
+    color: #fff
+  }
+
+.hero {
+    width: 40rem;
+    margin-right: 10rem;
+}
+
+@media (max-width:768px){
+
+    .hero{
+        margin: 0 auto;
+    }
+
+    /* CARINHO NO PREPARO */
+    .sectionContent {
+        margin-left: 2.5rem;
+    }
+
+    .sectionContent h1{
+        font-size: 2rem;
+    }
+
+   .sectionContent p {
+    font-size: 1.2rem;
+   }
+
+    .caffeAsset1 {
+        padding-top: 20rem;
+        padding-right: 0;
+    }
+    /* CARINHO NO PREPARO */
+
+    /* GRAOS SELECIONADOS */
+
+    .secondSectionContent {
+        margin-right: 2rem;
+    }
+
+    .secondSectionContent h1 {
+        font-size: 2rem;
+    }
+
+    .secondSectionContent p {
+        font-size: 1.2rem;
+    }
+     /* GRAOS SELECIONADOS */
+
+     /* WORKSHOP */
+     .thirdSectionContent{
+        margin-left: 5rem;
+     }
+
+     .thirdSectionContent h1 {
+        font-size: 2rem;
+     }
+
+     .thirdSectionContent p{
+        font-size: 1.2rem;
+     }
+     /* WORKSHOP */
+}
+
+@media (max-width:425.98px){
+
+   /* HERO */
+   .hero {
+    margin-left: 3rem;
+    margin-right: 2rem;
+}
+
+.hero h1 {
+    font-size: 1.6rem;
+}
+   /* HERO */
+
+   /* CARINHO */
+
+    .sectionContent {
+        margin-right: 3rem;
+    }
+
+   .sectionContent h1 {
+    font-size: 1.6rem;
+   }
+
+   .sectionContent p {
+    font-size: 0.9rem;
+   }
+
+   .caffeAsset1 {
+    display: none;
+   }
+   /* CARINHO */
+
+   /* GRAOS */
+   .secondSectionContent {
+    padding-left: 3rem;
+}
+
+   .secondSectionContent h1 {
+    font-size: 1.6rem;
+   }
+
+   .secondSectionContent p {
+    font-size: 0.9rem;
+   }
+
+   .caffeAsset2 {
+    display: none;
+   }
+   /* GRAOS */
+
+   /* WORKSHOP */
+   .caffeAsset3 {
+    display: none;
+   }
+
+   .thirdSectionContent h1 {
+    font-size: 1.6rem;
+   }
+
+   .thirdSectionContent p {
+    font-size: 0.9rem;
+   }
+
+   .thirdSectionContent {
+    margin-right: 3rem;
+   }
+   /* WORKSHOP */
+}
+
+
+@media (max-width: 375.98px){
+
+   /* GRAOS */
+   .secondSectionContent {
+    padding-left: 3rem;
+    padding-right: 2rem;
+}
+
+   .secondSectionContent h1 {
+    font-size: 1.6rem;
+   }
+
+   .secondSectionContent p {
+    font-size: 0.9rem;
+   }
+
+   .caffeAsset2 {
+    display: none;
+   }
+   /* GRAOS */
+
+   /* WORKSHOP */
+   .caffeAsset3 {
+    display: none;
+   }
+
+   .thirdSectionContent h1 {
+    font-size: 1.6rem;
+   }
+
+   .thirdSectionContent p {
+    font-size: 0.9rem;
+   }
+
+   .thirdSectionContent {
+    margin-right: 3rem;
+   }
+   /* WORKSHOP */
+}
+
+
+
+  
+

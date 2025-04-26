@@ -1,0 +1,101 @@
+.card{
+    background-color: #5D4C4C;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 15rem;
+    height: 27rem;
+    border: 0.3rem solid #302727;
+    border-radius: 2rem;
+    text-align: center;
+    padding-bottom: 1rem;
+    color: #160C0C;
+}
+
+.topSectionCard h3 {
+  margin-top: 0;
+  font-size: 1.6rem;
+  color: #FABD68;
+}
+
+.image {
+    width: 10rem;
+    height: 7rem;
+    border: 0.2rem solid #302727;
+    border-radius: 0.75rem;
+}
+
+.list {
+    text-align: center;
+    padding-bottom: 0.3rem;
+    font-size: 1.5rem;
+    list-style: none;
+}
+
+.listSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.listSection ul {
+    padding: 0;
+    list-style-position: inside;
+    text-align: center;
+  }
+
+  .price {
+    font-size: 1.7rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
+
+  .LinkClassCard {
+    text-decoration: none;
+    color: #FABD68;
+    border: 2px solid #FABD68;
+    padding: 0.7rem;
+    border-radius: 5rem;
+    transition: 0.2s;
+    margin-top: 1rem;
+  }
+  
+  .LinkClassCard:hover {
+    text-decoration: none;
+    background-color: #fcb24c;
+    color: #ffffff;
+    border: 2px solid #faa42d;
+    margin-left: 1rem;
+    padding: 0.7rem;
+    border-radius: 5rem;
+  }
+
+  @media (max-width: 1024px){
+    .card {
+        height: 24rem;
+    }
+
+    .LinkClassCard {
+        text-decoration: none;
+        color: #FABD68;
+        border: 2px solid #FABD68;
+        padding: 0.4rem;
+        border-radius: 5rem;
+        transition: 0.2s;
+        margin-top: 1rem;
+        font-size: 0.9rem;
+      }
+      
+      .LinkClassCard:hover {
+        text-decoration: none;
+        background-color: #fcb24c;
+        color: #ffffff;
+        border: 2px solid #faa42d;
+        margin-left: 1rem;
+        padding: 0.7rem;
+        border-radius: 5rem;
+      }
+    
+  }
