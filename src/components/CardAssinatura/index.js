@@ -1,6 +1,6 @@
 import React from "react"
 import * as styles from "./cardassinatura.module.css"
-import { Link } from "gatsby"
+
 
 
 export default function CardAssinatura({imageName, plan, list1, list2, list3, price }) {
@@ -8,9 +8,9 @@ export default function CardAssinatura({imageName, plan, list1, list2, list3, pr
 
     return (
         <div className={styles.card}>
-            <section>
-                <img className={styles.image} src={imageSrc} alt="Imagem do plano de assinatura"/>
+            <section className={styles.topSectionCard}>
                 <h3>{plan}</h3>
+                <img className={styles.image} src={imageSrc} alt="Imagem do plano de assinatura"/>
             </section>
 
             <section className={styles.listSection}>
@@ -23,7 +23,7 @@ export default function CardAssinatura({imageName, plan, list1, list2, list3, pr
 
             <h4 className={styles.price}>R$ {price}</h4>
 
-            <Link to="/" className="LinkClass">ASSINAR</Link>
+            <a target="_blank" href={`https://wa.me/5511991407988?text=Olá, gostaria de assinar o ${plan}!`} className="LinkClass">ASSINAR</a>
         </div>
     )
 }

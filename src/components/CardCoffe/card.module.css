@@ -6,7 +6,7 @@
     justify-content: center;
     width: 15rem;
     height: 27rem;
-    border: 0.3rem solid #302727;
+    border: 0.2rem solid #302727;
     border-radius: 2rem;
     text-align: center;
     padding-bottom: 1rem;
@@ -22,7 +22,6 @@
 .image {
     width: 10rem;
     height: 7rem;
-    border: 0.2rem solid #302727;
     border-radius: 0.75rem;
 }
 
@@ -31,6 +30,7 @@
     padding-bottom: 0.3rem;
     font-size: 1.5rem;
     list-style: none;
+    color: #f3a840;
 }
 
 .listSection{
@@ -50,6 +50,7 @@
     font-size: 1.7rem;
     margin-top: 0;
     margin-bottom: 1rem;
+    color: azure;
   }
 
   .LinkClassCard {

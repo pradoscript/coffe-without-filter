@@ -37,16 +37,32 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    padding-top: 2rem;
   }
 
-  .nutsInformation {
-    text-align: center;
-    color: #fff;
+  .nutsInformation p{
+    font-size: 1rem;
+  }
+
+  .nutsInformation h1 {
+    margin-bottom: 0.2rem;
+    font-size: 2.5rem;
   }
 
 .nutsCards {
   display: flex;
   gap: 1rem;
+}
+
+@media (max-width: 1440px){
+  .page {
+    padding-top: 4rem;
+  }
+
+  .nutsInformation h1 {
+    font-size: 3rem;
+    margin: 1rem 1rem;
+  }
 }
 
 @media (max-width: 375.98px){

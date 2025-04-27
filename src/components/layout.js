@@ -32,7 +32,7 @@ const Layout = ({ children }) => {
         <div className={open ? " menu active" : " menu inactive"}>
           <ul >
             <li>
-              <Link className="LinkNav" to="/Graos">Grãos</Link>
+              <Link className="LinkNav" to="/Menu">Menu</Link>
             </li>
             <li>
               <Link className="LinkNav" to="/Assinatura">Assinatura</Link>

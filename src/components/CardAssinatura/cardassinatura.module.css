@@ -6,11 +6,20 @@
     align-items: center;
     justify-content: center;
     width: 15rem;
-    border: 0.65rem solid #302727;
+    border: 0.2rem solid #302727;
     border-radius: 2rem;
     text-align: center;
     padding-bottom: 1rem;
     color: #160C0C;
+}
+
+.card h4{
+    margin-bottom: 0.2rem;
+    margin-top: 0.2rem;
+}
+
+.card h3{
+    margin-bottom: 0.2rem;
 }
 
 .image {
@@ -20,11 +29,16 @@
 
 }
 
+.topSectionCard h3 {
+    font-size: 1.5rem;
+    color: #FABD68;
+}
+
 .list {
     text-align: center;
     padding-bottom: 0.3rem;
     font-size: 1.5rem;
-    color: #FABD68;
+    color: #f3a840;
 }
 
 .listSection{
@@ -42,4 +56,16 @@
 
   .price {
     font-size: 1.7rem;
+    color: #fff;
+  }
+
+  @media (max-width: 1440px) {
+
+    .card {
+        margin-bottom: 1rem;
+    }
+
+    .card h4 {
+        margin-bottom: 0.2rem;
+    }
   }

@@ -108,10 +108,35 @@
     margin-right: 10rem;
 }
 
+.LinkClassHome {
+  display: inline-block;
+  text-decoration: none;
+  color: #FABD68;
+  border: 2px solid #FABD68;
+  padding: 0.7rem;
+  border-radius: 5rem;
+  transition: 0.2s;
+  margin-top: 0.5rem;
+}
+
+.LinkClassHome:hover {
+  text-decoration: none;
+  background-color: #fcb24c;
+  color: #ffffff;
+  border: 2px solid #faa42d;
+  margin-left: 1rem;
+  padding: 0.7rem;
+  border-radius: 5rem;
+}
+
 @media (max-width:768px){
 
     .hero{
         margin: 0 auto;
+    }
+
+    .LinkClassHome {
+      font-size: 0.8rem;
     }
 
     /* CARINHO NO PREPARO */
@@ -242,11 +267,11 @@
 }
 
    .secondSectionContent h1 {
-    font-size: 1.6rem;
+    font-size: 2rem;
    }
 
    .secondSectionContent p {
-    font-size: 0.9rem;
+    font-size: 1.5rem;
    }
 
    .caffeAsset2 {
@@ -260,11 +285,11 @@
    }
 
    .thirdSectionContent h1 {
-    font-size: 1.6rem;
+    font-size: 2.5rem;
    }
 
    .thirdSectionContent p {
-    font-size: 0.9rem;
+    font-size: 1.5rem;
    }
 
    .thirdSectionContent {
@@ -272,6 +297,66 @@
    }
    /* WORKSHOP */
 }
+
+@media (max-width: 320px){
+
+     /* CARINHO */
+
+     .sectionContent {
+        margin-right: 3rem;
+    }
+
+   .sectionContent h1 {
+    font-size: 2rem;
+   }
+
+   .sectionContent p {
+    font-size: 1.3rem;
+   }
+
+   .caffeAsset1 {
+    display: none;
+   }
+   /* CARINHO */
+
+    /* GRAOS */
+    .secondSectionContent {
+     padding-left: 3rem;
+     padding-right: 2rem;
+ }
+ 
+    .secondSectionContent h1 {
+     font-size: 1.5rem;
+    }
+ 
+    .secondSectionContent p {
+     font-size: 1.3rem;
+    }
+ 
+    .caffeAsset2 {
+     display: none;
+    }
+    /* GRAOS */
+ 
+    /* WORKSHOP */
+    .caffeAsset3 {
+     display: none;
+    }
+ 
+    .thirdSectionContent h1 {
+     font-size: 2rem;
+    }
+ 
+    .thirdSectionContent p {
+     font-size: 1.3rem;
+    }
+ 
+    .thirdSectionContent {
+     margin-right: 3rem;
+    }
+    /* WORKSHOP */
+ }
+ 
 
 
 

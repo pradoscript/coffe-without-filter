@@ -23,7 +23,7 @@ export default function CardCoffe({imageUrl, name, list1, list2, list3, price}){
             </section>
 
             <section>
-            <Link to="/" className={styles.LinkClassCard}>ENCOMENDAR</Link>
+            <a  target="_blank"  href={`https://wa.me/5511991407988?text=Olá, gostaria de pedir um ${name}!`} className={styles.LinkClassCard}>REALIZAR PEDIDO</a>
             </section>
         </div>
     )
