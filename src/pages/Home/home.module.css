@@ -129,6 +129,61 @@
   border-radius: 5rem;
 }
 
+@media (min-width: 2560px){
+  .hero {
+    margin: 0 auto;
+  }
+
+  .hero h1 {
+    font-size: 5rem;
+  }
+
+  .LinkClassHome {
+    font-size: 2rem;
+    padding: 1.5rem;
+  }
+
+  .sectionContent {
+  margin-left: 54rem;
+  }
+
+  .sectionContent h1 {
+    font-size: 5rem;
+  }
+
+  .sectionContent p {
+    font-size: 2rem;
+  }
+
+  .secondSectionContent {
+    margin-right: 54rem;
+  }
+
+  .secondSectionContent h1 {
+    font-size: 5rem;
+  }
+  
+  .secondSectionContent p {
+    font-size: 2rem;
+  }
+
+  .thirdSectionContent {
+    margin-left: 54rem;
+  }
+
+  .thirdSectionContent h1 {
+    font-size: 5rem;
+  }
+
+  .thirdSectionContent p {
+    font-size: 2rem;
+  }
+
+  .caffeAsset3 {
+    margin-right: 19rem;
+  }
+}
+
 @media (max-width:768px){
 
     .hero{

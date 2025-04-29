@@ -16,7 +16,7 @@ export default function Home(){
                 Cada <span>grão</span> uma <span>história</span>. <br/>
                 Cada <span>gole</span>, um mundo de <span>sabor</span> e <span>experiência</span>.    
             </h1>
-            <a className={styles.LinkClassHome} href="https://wa.me/5511991407988?text=Olá, gostaria de conhecer vocês!">CONHEÇA-NOS</a >
+            <a  target="_blank" className={styles.LinkClassHome} href="https://wa.me/5511991407988?text=Olá, gostaria de conhecer vocês!">CONHEÇA-NOS</a >
         </main>
       </div>
 
