@@ -2,6 +2,7 @@ import React from "react"
 import * as styles from "./assinatura.module.css"
 import Layout from "../../components/layout"
 import CardAssinatura from "../../components/CardAssinatura"
+import Seo from "../../components/seo"
 
 export default function Assinatura() {
     return (

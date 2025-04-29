@@ -2,6 +2,7 @@ import React from "react"
 import * as styles from "./contato.module.css"
 import Layout from "../../components/layout"
 import { StaticImage } from "gatsby-plugin-image"
+import Seo from "../../components/seo"
 
 export default function Contato() {
     return (
