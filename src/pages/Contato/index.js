@@ -6,11 +6,12 @@ import { StaticImage } from "gatsby-plugin-image"
 export default function Contato() {
     return (
         <Layout>
+            <Seo title="Contato" description="Página Contato destinada a fornecer o CONTATO da cafeteria."/>
             <div className={styles.page}>
                 <section className={styles.mainContainer}>
-               
-                <div className={styles.image}>
-                <h1>Onde nos encontrar?</h1>
+
+                    <div className={styles.image}>
+                        <h1>Onde nos encontrar?</h1>
                         <StaticImage
                             src="../../images/cafe-place.png"
                             alt="Café Sem Filtro"
@@ -21,9 +22,9 @@ export default function Contato() {
                         />
                     </div>
                     <section className={styles.informations}>
-                        
+
                         <div className={styles.informationsItems}>
-                        <section>
+                            <section>
                                 <StaticImage
                                     src="../../images/watch-asset.png"
                                     alt="Horários"
@@ -34,7 +35,7 @@ export default function Contato() {
                             </section>
                             <section>
                                 <p>
-                                    Segunda à Sabado <br/> 06h:00 às 19:00h
+                                    Segunda à Sabado <br /> 06h:00 às 19:00h
                                 </p>
                             </section>
                         </div>
@@ -52,14 +53,14 @@ export default function Contato() {
                             </section>
                             <section>
                                 <p>
-                                (11) 99140-7988
+                                    (11) 99140-7988
                                 </p>
                             </section>
 
                         </div>
 
                         <div className={styles.informationsItems}>
-                        <section>
+                            <section>
                                 <StaticImage
                                     src="../../images/map-asset.png"
                                     alt="Horários"
@@ -76,7 +77,7 @@ export default function Contato() {
                         </div>
 
                     </section>
-                    
+
                 </section>
             </div>
         </Layout>

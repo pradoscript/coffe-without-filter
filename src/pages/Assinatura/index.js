@@ -6,6 +6,7 @@ import CardAssinatura from "../../components/CardAssinatura"
 export default function Assinatura() {
     return (
         <Layout>
+            <Seo title="Assinatura" description="Página Assinatura destinada a fornecer as opções de assinatura da cafeteria."/>
             <div className={styles.page}>
                 <section>
 

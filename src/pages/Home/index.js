@@ -3,6 +3,7 @@ import * as styles from "./home.module.css"
 import Layout from "../../components/layout"
 import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
+import Seo from "../../components/seo"
 
 
 
@@ -10,6 +11,7 @@ export default function Home(){
 
   return (
     <Layout>
+      <Seo title="Home" description="Página Home destinada a fornecer as principais informações."/>
       <div className={`${styles.page} ${styles.pageHero}`}>
         <main className={styles.hero}>
             <h1>

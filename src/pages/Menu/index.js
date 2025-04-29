@@ -1,11 +1,13 @@
 import CardCoffe from "../../components/CardCoffe";
 import Layout from "../../components/layout";
+import Seo from "../../components/seo";
 import * as styles from "./menu.module.css"
 import React from "react"
 
 export default function Menu(){
     return (
         <Layout>
+              <Seo title="Menu" description="Página Menu destinada a fornecer o MENU da cafeteria."/>
             <div className={styles.page}>
                 <section className={styles.mainContainer}>
                     <div className={styles.nutsInformation}>
