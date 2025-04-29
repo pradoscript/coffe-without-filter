@@ -24,11 +24,7 @@ export default function Home(){
         <main className={styles.sectionContent}>
           <h1>CARINHO NO PREPARO</h1>
           <p>
-            Descubra o verdadeiro potencial do café com métodos que valorizam
-             cada nota e aroma. Da intensidade da prensa francesa, à elegância do siphon,
-             até a suavidade refrescante do cold brew — oferecemos uma experiência senso
-             rial única em cada preparo. Explore novos sabores, escolha o seu ritual prefe
-             rido e transforme sua rotina em um momento especial através dos nossos grãos moídos.
+          Valorizamos cada etapa do processo para oferecer a você o melhor café. Trabalhamos com fornecedores locais que adotam práticas de cultivo sustentável, respeitando o meio ambiente e as comunidades envolvidas. Nossos grãos são cuidadosamente selecionados, garantindo qualidade superior e compromisso com o comércio justo. Cada xícara que você saboreia carrega uma história de respeito, responsabilidade e paixão pelo café.
           </p>
           <Link className={styles.LinkClassHome} to="/Contato">VISITE-NOS</Link >
         </main>

@@ -1,7 +1,16 @@
-body, html {
+html, body {
   margin: 0;
   padding: 0;
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  width: 100%;
+  overflow-x: hidden;
+  overscroll-behavior-y: none;
+  overscroll-behavior-x: none;
+  scroll-behavior: smooth;
 }
+
 
 h1{
   color: aliceblue;

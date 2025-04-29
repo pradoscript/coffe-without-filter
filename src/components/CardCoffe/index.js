@@ -1,6 +1,5 @@
 import React from "react"
 import * as styles from "./card.module.css"
-import { Link } from "gatsby"
 
 export default function CardCoffe({imageUrl, name, list1, list2, list3, price}){
     return (
